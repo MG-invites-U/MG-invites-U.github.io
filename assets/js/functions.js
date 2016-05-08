@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
  var z = new Date();
  //var q  = z.split(' ');
 
- var day  = 16 - z.getDate() - 1;
+ var day  = 16 - z.getDate();
  var hours = 8 - z.getHours();
  var minutes = 30 - z.getMinutes();
  var seconds = 60 - z.getSeconds();
